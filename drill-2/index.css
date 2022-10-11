@@ -5,7 +5,7 @@ header{
     margin: 20px;
     display: flex;
     align-items: center;
-    
+    padding: 15px;
 }
 
 
@@ -32,18 +32,12 @@ header{
     margin: 50px;
 }
 
-/* .shapes {
-    display: flex;
-    flex-wrap: wrap;
-    height: 300px;
-      */
-/* } */
-
 
 .second{
     border: 5px dotted black;
     border-radius: 0px;
-    height: 30vh;
+    box-sizing: border-box;
+    height: 35vh;
     margin: 20px;
     display: flex;
     align-items: center;
@@ -51,19 +45,19 @@ header{
 }
 
 .tan-box {
-    background-color: rgb(251, 237, 199);
+    background-color: lemonchiffon;
     height: 200px;
-    width: 1500px;
+    width: 90%;
     filter: drop-shadow(5px 5px 5px black);
 }
 
 .third {
-    border: 2px solid lightgray;
-    border-radius: 0px;
+    border: 1px solid lightgray;
+    padding: 100px;
+    box-sizing: border-box ;
+    margin: 25px auto;
     height: 30vh;
-    width: 30vw;
-    position:fixed;
-    left: 35%;
+    width: 40vw;
     box-shadow: 3px 3px 3px lightgray;
     display: flex;
     align-items: center;
@@ -73,7 +67,8 @@ header{
 
 .text {
     font-size: 30px;
-    width: 300px;
+    width: 100%;
     letter-spacing: 10px;
+    color: navy;
 
 }
