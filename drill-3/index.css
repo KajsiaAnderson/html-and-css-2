@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: lightgray;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.small-box {
+    background-color: rgb(36, 128, 220);
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 20px;
+}
+
+.white{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.blue{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(36, 128, 220);
+}
+
+.teal{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(36, 218, 194);
+}
+
+.green{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(167, 220, 117);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.yellow{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(250, 215, 98);
+    
+}
+
+.question {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.mark {
+    color: white;
+    font-size: 23px;
+}
